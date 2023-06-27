@@ -80,8 +80,6 @@ pause_button = tk.Button(text='pause', height=5, width=7, font=('Arial', 20), co
 pause_button.pack(side=tk.LEFT)
 reset_button = tk.Button(text='reset', height=5, width=7, font=('Arial', 20), command=reset)
 reset_button.pack(side=tk.LEFT)
-quit_button = tk.Button(text='quit', height=5, width=7, font=('Arial', 20), command=root.quit)
-quit_button.pack(side=tk.LEFT)
 
 # ***** MAINLOOP *****
 # run app
